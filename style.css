@@ -1,0 +1,45 @@
+@-moz-document regexp("http://www.bom.gov.au/products/\\w*.loop.shtml") {
+#jumplinks, #footer, #header, .clr, #breadcrumb, #skip, h1, #state-warnings, #tabs-can, #controls-col1, #controls-col2, .viewer > tbody > tr:nth-child(2) {
+    display: none;
+}
+
+* {
+    background-color: unset!important;
+    margin: unset!important;
+    border: unset!important;
+    padding: unset!important;
+}
+
+#overlay, #pageheight, body { 
+    background-image: unset!important;
+}
+
+#overlay > div {
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: contain!important;
+    height: 100%!important;
+    width: 100%!important;
+}
+
+#overlay {
+    width: 100%!important;
+    height: auto!important;
+    max-height: 100%!important;
+}
+
+#animation {
+    width: 100%!important;
+    height: unset!important;
+}
+
+#content, #container, #columns, #pagewrap, #pageheight {
+    height: 100%!important;
+}
+
+#content, #container, #columns, #pagewrap {
+    width: unset!important;
+}
+
+
+}
