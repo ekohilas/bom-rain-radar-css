@@ -18,28 +18,24 @@
     background-repeat: no-repeat!important;
     background-position: center!important;
     background-size: contain!important;
-    height: 100%!important;
-    width: 100%!important;
+    height: 100vmin!important;
+    width: 100vmin!important;
 }
 
-#overlay {
-    width: 100%!important;
-    height: auto!important;
-    max-height: 100%!important;
-}
-
-#animation {
-    width: 100%!important;
-    height: unset!important;
+#overlay, #animation {
+    width: 100vmin!important;
+    height: 100vmin!important;
 }
 
 #content, #container, #columns, #pagewrap, #pageheight {
-    height: 100%!important;
+    height: 100vmin!important;
 }
 
 #content, #container, #columns, #pagewrap {
     width: unset!important;
 }
 
-
+body {
+    background-color: #c0d8e8!important;
+}
 }
